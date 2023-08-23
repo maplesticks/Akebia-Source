@@ -1,0 +1,162 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-111
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Down",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-55,
+				-14
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Right",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				86,
+				-58
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Left",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-46,
+				14
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Up",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"offsets": [
+				78,
+				-59
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "Left Miss"
+		},
+		{
+			"offsets": [
+				-92,
+				-23
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "Right Miss"
+		},
+		{
+			"offsets": [
+				-50,
+				10
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "Up Miss"
+		},
+		{
+			"offsets": [
+				30,
+				-111
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "Down Miss"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ronin",
+	"position": [
+		0,
+		190
+	],
+	"healthicon": "ronin",
+	"flip_x": true,
+	"healthbar_colors": [
+		80,
+		80,
+		80
+	],
+	"camera_position": [
+		150,
+		50
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
